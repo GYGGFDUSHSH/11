@@ -16,7 +16,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             reply_markup = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardalert("Source Code", I am not a Open Source Bot 😁)
+                        InlineKeyboardButton("<a href='https://t.me/Sflix2k/'>Sflix</a>")
 
                         InlineKeyboardButton(" Close", callback_data = "close")
                     ]
